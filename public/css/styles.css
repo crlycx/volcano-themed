@@ -78,6 +78,7 @@ header img:hover {
 }
 
 #main-image-text-box h1 {
+  font-size: 1.3em;
   letter-spacing: 7px;
   margin: 5% 0 0;
   display: inline-block;
@@ -88,7 +89,7 @@ header img:hover {
   display: inline-block;
 }
 
-#intro-content {
+#main-content-conainer {
   margin: 0 10% 0;
 }
 
@@ -97,27 +98,50 @@ header img:hover {
   margin: 0;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  font-size: 0.75rem;
+  font-size: 2.7rem;
   letter-spacing: 2px;
   color: #FBFAFF;
 }
 
 #blurb-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+  grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .blurbs p {
-  font-size: 0.6rem;
+  font-size: 3rem;
   margin: 1% 0;
   color: #E4DFF9;
 }
 
 #homepage-video {
   margin: 6% 0 0;
+}
+
+#main-content {
+  margin-top: 2%;
+}
+
+#grid-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.card {
+  background: inherit;
+  color: #FBFAFF;
+  font-size: 3rem;
+  /* width: 18rem; */
+}
+
+.card-body h5 {
+  font-size: 4rem;
 }
 
 #footer {
