@@ -18,6 +18,19 @@ body {
   font-size: 35px;
 }
 
+.nav-link {
+  font-size: 3rem !important;
+}
+
+.navbar-toggler {
+  font-size: 2.25rem;
+  border: 5px solid #e8e8e8 !important;
+}
+
+.navbar-my-icon {
+  height: 5rem;
+}
+
 .header {
   z-index: 2;
   position: -webkit-sticky;
@@ -142,6 +155,10 @@ header img:hover {
   grid-row-gap: 0px;
 }
 
+.card-link {
+  display: none;
+}
+
 .card {
   background: inherit;
   color: #FBFAFF;
@@ -151,6 +168,14 @@ header img:hover {
 
 .card-body h5 {
   font-size: 4rem;
+}
+
+.read-more-button {
+  padding-left: 35%;
+}
+
+.btn {
+  font-size: 3rem !important;
 }
 
 #footer {
