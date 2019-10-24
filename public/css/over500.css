@@ -31,48 +31,6 @@ body {
   height: 5rem;
 }
 
-.header {
-  z-index: 2;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5%;
-  /* display: flex; */
-  display: none;
-  align-items: center;
-  padding: 32px 0;
-  height: 64px;
-  /* background: white; */
-}
-
-.header a {
-  display: inline-block;
-  margin: 0 4%;
-  color: #aeaeae;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
-.header a:hover {
-  color: #e8e8e8;
-}
-
-.header img {
-  width: 35%;
-  opacity: 0.7;
-}
-
-header img:hover {
-  width: 37%;
-  opacity: 1;
-}
-
-.logo {
-  margin: 0 32px;
-  /* font-family: cursive;
-  font-size: 28px; */
-  color: black;
-}
-
 /* #main-image {
   width: 100%;
 } */

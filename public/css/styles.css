@@ -1,0 +1,141 @@
+/* <img id="main-image" src="public/images/active-volcano-deserted-island-at-night.jpg" alt="Vector Image of Active Volcano on Deserted Island at Night"> */
+#body-container {
+  background: no-repeat top center/100% url(../images/active-volcano-deserted-island-at-night.jpg);
+}
+
+body {
+  background-color: #1C003B;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  height: 120px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.nav-link {
+  font-size: 3rem !important;
+}
+
+.navbar-toggler {
+  font-size: 2.25rem;
+  border: 5px solid #e8e8e8 !important;
+}
+
+.navbar-my-icon {
+  height: 5rem;
+}
+
+/* #main-image {
+  width: 100%;
+} */
+
+#header-box {
+  display: inline-block;
+  width: 100%;
+  height: 320px;
+}
+
+#main-image-text-box {
+  position: absolute;
+  z-index: 999;
+  margin: 5% auto;
+  left: 0;
+  right: 0;
+  text-align: right;
+  top: 4%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3.3rem;
+  color: #e8e8e8;
+  width: 75%;
+  /* -webkit-text-stroke: 0.7px white; */
+  /* border: 1px solid white; */
+}
+
+#main-image-text-box h1 {
+  font-size: 1.3em;
+  letter-spacing: 7px;
+  margin: 5% 0 0;
+  display: inline-block;
+}
+
+#main-image-text-box p {
+  margin: 0;
+  display: inline-block;
+}
+
+#main-content-conainer {
+  margin: 0 10% 0;
+}
+
+#intro-content h1 {
+  padding: 3% 0 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+  color: #FBFAFF;
+}
+
+#blurb-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.blurbs p {
+  font-size: 3rem;
+  margin: 1% 0;
+  color: #E4DFF9;
+}
+
+#homepage-video {
+  margin: 6% 0 0;
+}
+
+#main-content {
+  margin-top: 2%;
+}
+
+#grid-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.card-link {
+  display: none;
+}
+
+.card {
+  background: inherit;
+  color: #FBFAFF;
+  font-size: 3rem;
+  /* width: 18rem; */
+}
+
+.card-body h5 {
+  font-size: 4rem;
+}
+
+.read-more-button {
+  padding-left: 35%;
+}
+
+.btn {
+  font-size: 3rem !important;
+}
+
+#footer {
+  display: none;
+}
