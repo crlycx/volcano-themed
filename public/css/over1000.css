@@ -53,7 +53,7 @@ body {
   left: 0;
   right: 0;
   text-align: right;
-  top: 4%;
+  top: 8%;
   font-family: 'Libre Baskerville', serif;
   font-size: 3.3rem;
   color: #e8e8e8;
@@ -90,17 +90,17 @@ body {
 
 #blurb-box {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 10px;
   grid-row-gap: 0px;
 }
 
 .blurbs p {
-  font-size: 2.75rem;
+  font-size: 2rem;
   margin: 1% 0;
   color: #E4DFF9;
-  border-left: 10px solid #484c7f;
+  border-left: 6px solid #484c7f;
   /* border-top: 6px solid mistyrose; */
   padding-left: 4%;
 }
@@ -128,12 +128,12 @@ body {
 .card {
   background: inherit;
   color: #FBFAFF;
-  font-size: 2.75rem;
+  font-size: 2rem;
   /* width: 18rem; */
 }
 
 .card-body h5 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .read-more-button {
@@ -141,7 +141,7 @@ body {
 }
 
 .btn {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .btn-primary {

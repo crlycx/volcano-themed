@@ -10,6 +10,11 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 2rem !important;
+}
+
 .navbar {
   height: 120px;
 }
@@ -78,7 +83,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  font-size: 2.7rem;
+  font-size: 3rem;
   letter-spacing: 2px;
   color: #FBFAFF;
 }
@@ -92,9 +97,12 @@ body {
 }
 
 .blurbs p {
-  font-size: 3rem;
+  font-size: 2.75rem;
   margin: 1% 0;
   color: #E4DFF9;
+  border-left: 10px solid #484c7f;
+  /* border-top: 6px solid mistyrose; */
+  padding-left: 4%;
 }
 
 #homepage-video {
@@ -120,12 +128,12 @@ body {
 .card {
   background: inherit;
   color: #FBFAFF;
-  font-size: 3rem;
+  font-size: 2.75rem;
   /* width: 18rem; */
 }
 
 .card-body h5 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .read-more-button {
@@ -133,7 +141,14 @@ body {
 }
 
 .btn {
-  font-size: 3rem !important;
+  font-size: 3rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #484c7f;;
+  border-color: #484c7f;
+  border-radius: 20px;
 }
 
 #footer {
